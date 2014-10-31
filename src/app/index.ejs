@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en" ng-app="udeHackathon" ng-controller="ProductCtrl">
+
+<head>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width">
+
+    <title>{{ Page.title() }}</title>
+
+    <link rel="stylesheet" href="/css/combined-grunt.min.css">
+    <!-- <link rel="stylesheet" href="/css/combined-gulp.min.css"> -->
+
+</head>
+
+<body>
+
+    <div id="container" ng-view></div>
+
+    <footer>
+        <ul class="credits">
+            <li>
+                UDE Hackathon Code
+            </li>
+            <li><a href="https://github.com/jlengstorf/ude-hackathon">View Source on GitHub</a></li>
+        </ul>
+    </footer>
+
+    <!-- JS Dependencies -->
+    <script src="/lib/angular/angular.min.js"></script>
+    <script src="/lib/angular-route/angular-route.min.js"></script>
+
+    <!-- App-Specific JS, combined and minified -->
+    <script src="/js/combined-grunt.min.js"></script>
+
+    <!-- 
+    LiveReload JS
+    TODO Remove for production
+    -->
+    <script src="http://localhost:35729/livereload.js?snipver=1"></script>
+
+</body>
+
+</html>

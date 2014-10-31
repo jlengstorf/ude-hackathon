@@ -1,0 +1,9 @@
+{
+  "name": "ude-hackathon",
+  "version": "0.2.0",
+  "dependencies": {
+    "angular": "~1.2.20",
+    "angular-route": "~1.2.20"
+  },
+  "devDependencies": {}
+}
