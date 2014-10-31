@@ -20,6 +20,10 @@ angular.module('udeHackathon')
         },
         attiphone = {
       "name": "Apple - iPhone 5s 16GB Cell Phone - Gold (AT&T)",
+      "largeFrontImage": "http://img.bbystatic.com/BestBuy_US/images/products/1755/1755302_sa.jpg",
+      "topViewImage": null,
+      "backViewImage": null,
+      "leftViewImage": null,
       "shortDescription": "4-inch Retina displayA7 chip with M7 motion coprocessorTouch ID fingerprint sensorNew 8MP iSight camera with True Tone flash1080p HD video recordingFaceTime HD camera",
       "longDescription": "The highly advanced iPhone 5s features the A7 chip with 64-bit architecture, the Touch ID fingerprint sensor, a new 8MP iSight camera, a new FaceTime HD camera, ultrafast LTE wireless, iOS 7, and iCloud. Yet it's as thin and light as ever.",
       "sku": 1755302,
